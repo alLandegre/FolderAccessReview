@@ -1,0 +1,26 @@
+bin/
+obj/
+publish/
+installer/
+.vs/
+*.user
+*.suo
+TestResults/
+
+# Versioned self-contained builds (~170 MB each)
+Приложение/*/
+!Приложение/README.md
+
+# Accidental mojibake publish folders / installer payloads
+**/1.*-installer/
+**/1.3-installer/
+**/1.4/
+**/1.5/
+*.exe
+*.dll
+*.pdb
+!tools/**/*.cs
+!tools/**/*.csproj
+
+# Keep source only — no self-contained runtimes in git
+**/win-x64/

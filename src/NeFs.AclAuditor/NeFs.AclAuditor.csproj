@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationTitle>Folder Access Review</ApplicationTitle>
+    <Product>Folder Access Review</Product>
+    <AssemblyTitle>Folder Access Review</AssemblyTitle>
+    <Description>Read-only NTFS ACL auditor for folders and file shares</Description>
+    <RootNamespace>NeFs.AclAuditor</RootNamespace>
+    <AssemblyName>FolderAccessReview</AssemblyName>
+    <ApplicationIcon>..\..\assets\FolderAccessReview.ico</ApplicationIcon>
+    <Version>1.5.0</Version>
+    <FileVersion>1.5.0</FileVersion>
+    <InformationalVersion>1.5.0</InformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NeFs.AclAuditor.Core\NeFs.AclAuditor.Core.csproj" />
+  </ItemGroup>
+
+</Project>
